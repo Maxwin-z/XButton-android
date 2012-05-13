@@ -1,0 +1,17 @@
+Description:
+    An iOS like button. When pressed, the button will become gray.
+
+Purpose:
+    When add a Button, we need write a selector for it to set
+    diffenent background for each status (pressed, focused,
+            normal...). 
+    But most time, we only need a button with normal and pressed
+    status, write a selector is too heavy. So XButton comes, you
+    only need set the normal status's background, when pressed it
+    will become gray to show users that "you pressed me".
+
+How to use:
+    Just replace the widget Button by me.maxwin.view.XButton
+    When you need to change the background, text, call method
+    reset() to clean the cached highlight bitmap please.
+

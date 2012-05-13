@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <me.maxwin.view.XButton
+        android:id="@+id/xButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home"/>
+
+    <me.maxwin.view.XButton
+        android:id="@+id/xButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XButton" />
+
+    <me.maxwin.view.XButton
+        android:id="@+id/xButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" android:background="@drawable/like"/>
+
+</LinearLayout>
